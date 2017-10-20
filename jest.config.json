@@ -1,0 +1,19 @@
+{
+  "moduleFileExtensions": [
+    "js"
+  ],
+  "moduleDirectories": [
+    "node_modules"
+  ],
+  "setupFiles": [
+    "./test-setup.js"
+  ],
+  "collectCoverageFrom": [
+    "src/**/*.{js}",
+    "!**/node_modules/**"
+  ],
+  "testEnvironment": "node",
+  "transform": {
+    "^.+\\.js$": "babel-jest"
+  }
+}
